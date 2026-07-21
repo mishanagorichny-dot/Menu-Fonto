@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Fonto | Fine Dining Restaurant in Ranelagh, Dublin</title>
+<meta name="description" content="Fonto is a fine-dining restaurant in Ranelagh, Dublin, built around wood-fired ovens, slow roasting and stone-baked dough. View our menus and book a table." />
+<meta property="og:type" content="restaurant" />
+<meta property="og:title" content="Fonto | Fine Dining Restaurant in Ranelagh, Dublin" />
+<meta property="og:description" content="Wood-fired ovens, slow roasting and stone-baked dough — honest ingredients, made to be shared. View our menus and book a table at Fonto." />
+<meta property="og:image" content="assets/hero.png" />
+<link rel="icon" type="image/png" href="assets/header-logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to content</a>
+
+<header class="site-header">
+  <img src="assets/header-logo.png" class="header-logo" width="110" height="80" alt="Fonto — go to homepage" id="logoHome" role="button" tabindex="0" />
+  <button class="menu-btn" id="menuToggle" aria-expanded="false" aria-controls="navOverlay"><span>MENU</span></button>
+</header>
+
+<!-- Full-screen navigation overlay -->
+<nav class="nav-overlay" id="navOverlay" aria-hidden="true">
+  <button class="nav-overlay__close" id="navClose" aria-label="Close menu">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><line x1="4" y1="4" x2="20" y2="20"/><line x1="20" y1="4" x2="4" y2="20"/></svg>
+  </button>
+  <ul class="nav-overlay__list">
+    <li><a href="#" data-nav="2">About</a></li>
+    <li><a href="#" data-nav="3">View Menu</a></li>
+    <li><a href="#" data-nav="4">Book a Table</a></li>
+    <li><a href="#" data-action="call-us">Call Us</a></li>
+  </ul>
+</nav>
+
+<main class="stack" id="main-content">
+
+  <!-- SLIDE 1 — HERO -->
+  <section class="slide slide--1" style="--i:0;">
+    <div class="slide__bg" style="background-image:url('assets/hero.png');"></div>
+    <div class="slide__scrim slide__scrim--hero"></div>
+    <div class="slide__content slide1-content">
+      <h1 class="sr-only">Fonto — Fine Dining Restaurant in Ranelagh, Dublin</h1>
+      <img src="assets/hero-subtitle.png" class="asset-text asset-text--subtitle" width="318" height="34" alt="find yours in restaurant" />
+      <img src="assets/hero-title.png" class="asset-text asset-text--title" width="714" height="146" alt="FONTO" />
+    </div>
+    <div class="slide-counter">
+      <span>1/5</span>
+      <span class="arrow-down">↓</span>
+    </div>
+  </section>
+
+  <!-- SLIDE 2 — ABOUT -->
+  <section class="slide slide--2" style="--i:1;">
+    <div class="slide__bg" style="background-image:url('assets/about.png');"></div>
+    <div class="slide__scrim slide__scrim--about"></div>
+    <div class="slide__content slide2-content">
+      <img src="assets/slide2-icon.svg" class="pasta-doodle" loading="lazy" width="161" height="149" alt="" />
+      <div class="about-copy-block">
+        <img src="assets/slide2-paragraph-body.svg" class="asset-text asset-text--about-copy" loading="lazy" width="889" height="90" alt="Forno brings together the finest traditions of European cooking — wood-fired ovens, open flame and time-honoured recipes — made with the finest quality, seasonal ingredients. We take pride not only in our food, but in our passionate, personable team who care about the product as much as we do." />
+        <img src="assets/slide2-paragraph-closing.svg" class="asset-text asset-text--about-closing" loading="lazy" width="285" height="24" alt="Where the oven meets the table…" />
+      </div>
+      <div class="btn-row">
+        <button class="pill-btn pill-btn--fill" data-nav="4">BOOK A TABLE</button>
+        <button class="pill-btn pill-btn--fill" data-nav="3">VIEW MENU</button>
+        <button class="pill-btn pill-btn--fill" data-action="contact-footer">CONTACT</button>
+      </div>
+    </div>
+    <div class="slide-counter">
+      <span>2/5</span>
+      <span class="arrow-down">↓</span>
+    </div>
+  </section>
+
+  <!-- SLIDE 3 — MENU -->
+  <section class="slide slide--3" style="--i:2;">
+    <div class="slide__bg slide__bg--solid"></div>
+    <div class="slide__content slide3-content">
+      <img src="assets/slide3-tagline.png" class="asset-text asset-text--tagline3" loading="lazy" width="162" height="43" alt="find you taste" />
+      <img src="assets/slide3-title.png" class="asset-text asset-text--menutitle" loading="lazy" width="485" height="115" alt="MENU" />
+      <p class="lede-text">Forno was born from a simple belief: that the oven is the heart of the table. We bring together Europe's oldest cooking traditions — wood fire, slow roasting, stone-baked dough — and treat them with the same care they've always deserved. Every plate that leaves our kitchen carries that philosophy: honest ingredients, unhurried technique, and food made to be shared. At Forno, we don't chase trends — we tend the fire, and let it do the talking.</p>
+
+      <div class="menu-cards">
+        <a href="assets/menus/sit-down-menu.pdf" target="_blank" rel="noopener" aria-label="Open Sit-down Menu PDF (opens in a new tab)">
+          <img src="assets/card-sitdown.png" alt="Sit-down Menu" class="menu-card menu-card--img" loading="lazy" width="324" height="430" />
+        </a>
+        <a href="assets/menus/drink-menu.pdf" target="_blank" rel="noopener" aria-label="Open Drink Menu PDF (opens in a new tab)">
+          <div class="menu-card menu-card--drink">
+            <div class="menu-card__logo">
+              <img src="assets/header-logo.png" loading="lazy" width="110" height="80" alt="" />
+              <span>FONTO</span>
+            </div>
+            <div class="menu-card__title">
+              <span class="script-word">Drink</span>
+              <span class="serif-word">MENU</span>
+            </div>
+            <span class="menu-card__cta">GET IN TOUCH</span>
+          </div>
+        </a>
+        <a href="assets/menus/takeaway-menu.pdf" target="_blank" rel="noopener" aria-label="Open Takeaway Menu PDF (opens in a new tab)">
+          <img src="assets/card-takeaway.png" alt="Takeaway Menu" class="menu-card menu-card--img" loading="lazy" width="324" height="430" />
+        </a>
+      </div>
+
+      <p class="closing-text">Let's taste something amazing</p>
+      <button class="pill-btn pill-btn--outline" data-nav="4">BOOK A TABLE</button>
+      <div class="slide-counter slide-counter--light slide-counter--inline">
+        <span>3/5</span>
+        <span class="arrow-down">↓</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 4 — RESERVATION -->
+  <section class="slide slide--4" style="--i:3;">
+    <div class="slide__bg" style="background-image:url('assets/reservation-bg.png');"></div>
+    <div class="slide__scrim slide__scrim--reservation"></div>
+    <div class="slide__content slide4-content">
+      <img src="assets/slide4-tagline.png" class="asset-text asset-text--booktag" loading="lazy" width="134" height="43" alt="book a table" />
+      <img src="assets/slide4-title.png" class="asset-text asset-text--reservation" loading="lazy" width="911" height="94" alt="RESERVATION" />
+      <img src="assets/slide4-subtitle.png" class="asset-text asset-text--ressub" loading="lazy" width="589" height="23" alt="Reserve the space using your preferred method" />
+      <div class="btn-row">
+        <button class="pill-btn pill-btn--ghost-hover" id="openReservationModal">COMPLETE AN ONLINE FORM</button>
+        <button class="pill-btn pill-btn--ghost-hover" data-nav="5">CALL US</button>
+      </div>
+    </div>
+    <div class="slide-counter">
+      <span>4/5</span>
+      <span class="arrow-down">↓</span>
+    </div>
+  </section>
+
+  <!-- SLIDE 5 — FOOTER -->
+  <section class="slide slide--5" style="--i:4;">
+    <div class="slide__bg slide__bg--solid"></div>
+    <div class="slide__content slide5-content">
+      <div class="portfolio-heading">
+        <img src="assets/slide5-heading.png" class="asset-text asset-text--portfolio" loading="lazy" width="546" height="30" alt="A Portfolio of Flavors" />
+        <img src="assets/slide5-subheading.png" class="asset-text asset-text--subcaption" loading="lazy" width="351" height="19" alt="from timeless classics to signature creations." />
+      </div>
+
+      <div class="gallery-wrap">
+        <img src="assets/tomato-icon.png" class="tomato-doodle" loading="lazy" width="141" height="145" alt="" />
+        <div class="gallery-track">
+          <img src="assets/gallery-1.png" loading="lazy" width="548" height="508" alt="">
+          <img src="assets/gallery-2.png" loading="lazy" width="557" height="508" alt="">
+          <img src="assets/gallery-3.png" loading="lazy" width="547" height="508" alt="">
+          <img src="assets/gallery-4.png" loading="lazy" width="585" height="508" alt="">
+          <img src="assets/gallery-5.png" loading="lazy" width="537" height="508" alt="">
+          <img src="assets/gallery-6.png" loading="lazy" width="533" height="508" alt="">
+          <img src="assets/gallery-7.png" loading="lazy" width="553" height="508" alt="">
+          <img src="assets/gallery-8.png" loading="lazy" width="541" height="508" alt="">
+          <img src="assets/gallery-9.png" loading="lazy" width="569" height="508" alt="">
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom__left">
+          <img src="assets/rigatoni-icon.png" class="rigatoni-doodle" loading="lazy" width="187" height="172" alt="" />
+          <img src="assets/logo-lockup-white.png" class="footer-logo" loading="lazy" width="2400" height="874" alt="FONTO" />
+        </div>
+        <div class="footer-bottom__right">
+          <div class="footer-info">
+            <p>24 Ember Lane, Ranelagh, Dublin 6, Ireland</p>
+            <p>+353 1 555 8472</p>
+            <p>hello@fonto.com</p>
+            <p class="hours-label">OPENING HOURS:</p>
+            <p class="hours">mon–thu: 5pm–10.30pm<br>fri–sat: 12.30pm–11.30pm<br>sun: 12.30pm–10.30pm</p>
+          </div>
+          <div class="footer-links">
+            <p>Privacy Policy</p>
+            <p>Cookie Policy</p>
+            <p>Terms &amp; Conditions</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="footer-centered-tag">
+        <img src="assets/slide5-footer-tagline.png" loading="lazy" width="203" height="25" alt="We'd love to hear from you." />
+      </p>
+
+      <div class="slide-counter slide-counter--footer">
+        <span class="arrow-up">↑</span>
+        <span>5/5</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Reservation form modal (opened from Slide 4 — Complete an Online Form) -->
+<div class="modal-overlay" id="reservationModal" aria-hidden="true">
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="reservationModalTitle">
+    <div class="modal-topbar">
+      <button class="modal-close" id="reservationClose" aria-label="Close reservation form">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><line x1="4" y1="4" x2="20" y2="20"/><line x1="20" y1="4" x2="4" y2="20"/></svg>
+      </button>
+    </div>
+
+    <div class="modal-header">
+      <div class="modal-icon-row">
+        <svg class="modal-mini-icon" viewBox="0 0 40 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round">
+          <line x1="3" y1="4" x2="3" y2="17"/><line x1="9" y1="2" x2="9" y2="19"/><line x1="15" y1="4" x2="15" y2="17"/>
+          <path d="M1 8 H17"/><path d="M1 12 H17"/><path d="M19 11 H37"/>
+        </svg>
+        <span class="modal-tag">Reservation</span>
+      </div>
+      <h2 id="reservationModalTitle" class="modal-title">Tell Us About<br>Your Plans</h2>
+      <p class="modal-subtitle">We will contact you as soon possible<br>to clarify the details.</p>
+      <svg class="modal-pasta-icon" viewBox="0 0 64 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">
+        <path d="M6 8 C18 16 18 32 6 40 C14 36 22 30 28 24 C22 18 14 12 6 8 Z"/>
+        <path d="M58 8 C46 16 46 32 58 40 C50 36 42 30 36 24 C42 18 50 12 58 8 Z"/>
+        <path d="M28 24 H36"/><circle cx="32" cy="24" r="3"/>
+      </svg>
+    </div>
+
+    <form class="reservation-form" id="reservationForm" novalidate>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="resName" class="sr-only">Name</label>
+          <input type="text" name="name" id="resName" placeholder="Name" autocomplete="name" required />
+        </div>
+        <div class="form-field">
+          <label for="resPhone" class="sr-only">Phone</label>
+          <input type="tel" name="phone" id="resPhone" placeholder="Phone" autocomplete="tel" required />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="resDatetime" class="sr-only">Date and time</label>
+          <input type="text" name="datetime" id="resDatetime" placeholder="Date and time" required />
+        </div>
+        <div class="form-field">
+          <label for="resGuests" class="sr-only">Number of people</label>
+          <input type="number" name="guests" id="resGuests" placeholder="Number of person" min="1" required />
+        </div>
+      </div>
+      <div class="form-field form-field--full">
+        <label for="resWishes" class="sr-only">Your wishes</label>
+        <textarea name="wishes" id="resWishes" placeholder="Your wishes" rows="2"></textarea>
+        <span class="field-hint">Tell us about your special wishes and preferences for placement</span>
+      </div>
+      <div class="form-footer">
+        <label class="form-check">
+          <input type="checkbox" id="resConsent" required />
+          <span>Clicking the button, you agree with <a href="#" class="privacy-link">Privacy Policy</a></span>
+        </label>
+        <button type="submit" class="pill-btn pill-btn--outline-dark">RESERVE</button>
+      </div>
+    </form>
+    <p class="form-success" id="resSuccess" hidden>Thank you — your request has been noted. We'll be in touch shortly to confirm your reservation.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
